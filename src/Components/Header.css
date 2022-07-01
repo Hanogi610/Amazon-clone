@@ -1,0 +1,100 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    top: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.header__logoContainer {
+    height: 90%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__logo {
+    height: 30px;
+    object-fit: contain;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header__search:focus-within {
+    border: 3px solid #cd9042;
+}
+
+.header__searchInput:focus {
+    border: none;
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+
+.header__optionLineOne {
+    font-size: 13px;
+}
+
+.header__optionLineTwo {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.header__location {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.header__locationIcon {
+    color: #fff;
+}
+
+.header__dropdown {
+    height: 32px;
+    border: none;
+    width: auto;
+    cursor: pointer;
+}
